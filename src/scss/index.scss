@@ -1,0 +1,10 @@
+@import "../blocks/fonts/fonts";
+@import "../blocks/content/content";
+@import "../blocks/comment/comment";
+@import "../blocks/person/person";
+body {
+    background: hsl(214, 17%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

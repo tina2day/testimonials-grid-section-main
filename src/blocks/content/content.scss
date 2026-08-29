@@ -1,0 +1,19 @@
+.content {
+    width: 75%;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "one one two five"
+    "three four four five";
+    gap: 30px;
+    @media (max-width: 1200px) {
+        width: 80%;
+        grid-template-areas: "one"
+        "two" "three" "four" "five";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,40 @@
+.person {
+  display: flex;
+  margin-top: 20px;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed";
+}
+.person__information {
+  margin-left: 15px;
+  font-size: 13px;
+}
+.person__name {
+  font-weight: 600;
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+.person__graduate {
+  margin-top: 3px;
+  font-weight: 500;
+}
+.person__photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  align-self: center;
+}
+.person #one {
+  border: 2px solid hsl(264, 82%, 80%);
+}
+.person #two {
+  border: 2px solid hsl(0, 0%, 81%);
+}
+.person #three {
+  border: 2px solid hsl(0, 0%, 100%);
+}
+.person #four {
+  border: 2px solid hsl(263, 55%, 52%);
+}
+.person #five {
+  border: 2px solid hsl(0, 0%, 100%);
+}/*# sourceMappingURL=person.css.map */
